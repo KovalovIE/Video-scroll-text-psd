@@ -1,4 +1,9 @@
-@media all and (min-width: 700px) and (max-width: 900px) {
+@media all and (min-width: 700px) and (max-width: 840px) {
+  .container {
+    min-height: 540px;
+  }
+}
+@media all and (min-width: 841px) and (max-width: 900px) {
   .container {
     min-height: 520px;
   }
@@ -13,13 +18,23 @@
     min-height: 450px;
   }
 }
-@media all and (min-width: 1101px) and (max-width: 1300px) {
+@media all and (min-width: 1101px) and (max-width: 1200px) {
   .container {
     min-height: 420px;
   }
 }
-@media all and (min-width: 1301px) and (max-width: 1700px) {
+@media all and (min-width: 1201px) and (max-width: 1300px) {
+  .container {
+    min-height: 405px;
+  }
+}
+@media all and (min-width: 1301px) and (max-width: 1450px) {
   .container {
     min-height: 390px;
+  }
+}
+@media all and (min-width: 1451px) and (max-width: 1700px) {
+  .container {
+    min-height: 370px;
   }
 }
