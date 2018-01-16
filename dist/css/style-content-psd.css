@@ -1,0 +1,95 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  width: 930px;
+  color: #7d7d7d;
+  font-size: 14px;
+}
+.head {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.parag {
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+  column-count: 3;
+  line-height: 20px;
+}
+.color-text {
+	color: #ffc28c;
+	border-left: 2px solid #ffc28c;
+	padding-left: 20px;
+  line-height: 1.15em;
+}
+.list-ol {
+  list-style:none;
+  counter-reset:num;
+  margin-left: -40px;
+}
+.list-li:before {
+  content:counter(num)'. ';
+  counter-increment:num;
+  color: #cfcfcf;
+  font-size: 12px;
+  margin-right: 7px;
+}
+.list-li {
+  margin-bottom: 15px;
+}
+.quotes {
+  color: #cfcfcf;
+  quotes: "\201c" "\201d";
+  font-size: 25px;
+  line-height: 1px;
+}
+.em-size {
+  font-size: 15px;
+}
+
+.size-quote {
+  font-family: SourceSansPro-LightIt;
+  margin: 24px 17px;
+  color: #cfcfcf;
+}
+ 
+.size-quote:before {
+  content: open-quote;
+  font-size: 60px;
+  position: fixed;
+  left: 627px;
+  top: 150px;
+}
+ 
+.size-quote:after {
+  content: close-quote;
+  font-size: 60px;
+  position: fixed;
+  left: 915px;
+  top: 290px;
+}
+
+.link-end {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+}
+.link-end:before {
+  content: '\25ba';
+  font-size: 7px;
+  padding-right: 5px;
+  color: #ffc28c;
+  line-height: 20px;
+}
+.color-link {
+  color: #ffc28c;
+}
+
+@font-face {
+font-family: "OpenSans-LightItalic"; 
+src: url("fonts/OpenSans-LightItalic.ttf"); 
+}
+
+@font-face {
+font-family: "SourceSansPro-LightIt"; 
+src: url("fonts/SourceSansPro-LightIt.otf"); 
+}

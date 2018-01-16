@@ -1,0 +1,29 @@
+@import url("modules/main.css");
+@import url("modules/media.css");
+
+* {
+  margin: 0;
+}
+.container {
+	box-sizing: border-box;
+	width: 100%;
+	min-width: 800px;
+	display: flex;
+  	flex-direction: column;
+  	height: 100vh;
+}
+.header {
+	height: 50px;
+	background: #e3e2e2;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+.footer {
+	height: 50px;
+	background: #e3e2e2;
+	display: flex;
+	align-items: center;
+	flex: 0 auto;
+}
